@@ -5,7 +5,7 @@ FROM python:3
 WORKDIR /app
 
 # Copia el archivo de requerimientos
-COPY requirements.txt /app/
+COPY requierements.txt /app/
 
 # Instala las dependencias con python3
 RUN pip3 install --no-cache-dir -r requirements.txt
